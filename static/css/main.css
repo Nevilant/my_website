@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(circle, #006400, #00008B);
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+}
+
+body p {
+    color: whitesmoke;
+}
+
+.container {
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.header_menu {
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    color: white; /* Добавлено для лучшего контраста */
+    font-size: 25px;
+}
+
+.main h1 {
+    color: white;
+}
